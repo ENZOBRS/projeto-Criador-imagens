@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  nav {
+    margin-top: 0.5rem;
+  }
+  
+  nav a {
+    color: #4fc3f7;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  section {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    max-width: 600px;
+    margin: 0 auto 1rem;
+  }
+  
+  .btn,
+  input[type="submit"],
+  button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover,
+  button:hover {
+    background-color: #005fa3;
+  }
+  
+  button[disabled] {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+  
+  form {
+    background-color: white;
+    padding: 1rem;
+    max-width: 500px;
+    margin: 2rem auto;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  input, textarea, select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .aviso {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+  
+  .galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+  }
+  
+  .imagem-item {
+    text-align: center;
+  }
+  
+  .imagem-item img {
+    max-width: 200px;
+    border-radius: 4px;
+  }
+  
+  .imagem-item a {
+    display: block;
+    margin-top: 0.5rem;
+    color: #0077cc;
+  }
+  
+  article, aside {
+    background: white;
+    margin: 1rem auto;
+    max-width: 600px;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  aside h2, article h2 {
+    text-align: center;
+  }
+  
+  aside ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  aside ul li {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0.5rem 0;
+  }
+  

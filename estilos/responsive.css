@@ -1,0 +1,52 @@
+
+@media (max-width: 768px) {
+    body {
+      padding: 10px;
+    }
+  
+    header, footer {
+      padding: 0.8rem;
+      font-size: 0.9rem;
+    }
+  
+    nav a {
+      display: block;
+      margin: 10px 0;
+      font-size: 1rem;
+    }
+  
+    section {
+      padding: 1rem;
+    }
+  
+    .btn {
+      width: 100%;
+      padding: 1rem;
+      font-size: 1.1rem;
+    }
+  
+    form {
+      width: 100% !important;
+      margin: 10px auto;
+      padding: 10px;
+    }
+  
+    textarea, select, input[type="submit"] {
+      font-size: 1rem;
+    }
+  
+    .galeria {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .imagem-item img {
+      max-width: 90%;
+    }
+  
+    article, aside {
+      width: 90%;
+      font-size: 1rem;
+    }
+  }
+  
